@@ -191,7 +191,7 @@ Doing operations with numbers is simple. Fire up `irb` in your terminal and try 
 ```
 
 
-Ruby has arithmetic operators such as `+`, `-`, `*`, `/`, `%`, and comparison operators such as `>`, `&lt;`, `>=`, `&lt;=`, `==` and `!=` (not equal). You must _always_ use _two_ equals signs when doing a comparison. The [list of Ruby operators](http://www.tutorialspoint.com/ruby/ruby_operators.htm) is extensive. Feel free to try some other ones out in irb.
+Ruby has arithmetic operators such as `+`, `-`, `*`, `/`, `%`, and comparison operators such as `>`, `<`, `>=`, `<=`, `==` and `!=` (not equal). You must _always_ use _two_ equals signs when doing a comparison. The [list of Ruby operators](http://www.tutorialspoint.com/ruby/ruby_operators.htm) is extensive. Feel free to try some other ones out in irb.
 
 
 ### **Strings**
@@ -283,7 +283,7 @@ puts "1. Hello\n2. World"
 ```
 
 
-Strings can also work with some arithmetic operators (`+`, `-`, `*`, etc) and comparison operators (`>`, `&lt;=`, `==`, etc). Try a few in irb to see what works and what doesn't.
+Strings can also work with some arithmetic operators (`+`, `-`, `*`, etc) and comparison operators (`>`, `<=`, `==`, etc). Try a few in irb to see what works and what doesn't.
 
 
 ### **Symbols**
@@ -351,7 +351,7 @@ Create a file called `exercise2.rb` and in it enter the solution for the four pr
 1. How would you calculate a good tip for a 55 dollar meal? Use `puts` to print the answer.
 2. Try adding a string and an integer with the `+` operator. What happens? Find a way to convert the integer into a string first and use `puts` to print the result.
 3. Try outputting the result of 45628 multiplied by 7839 in a sentence by using [string interpolation]().
-4. What's the value of the expression `(10 &lt; 20 && 30 &lt; 20) || !(10 == 11)`? Try figuring it out on your own before typing it in.
+4. What's the value of the expression `(10 < 20 && 30 < 20) || !(10 == 11)`? Try figuring it out on your own before typing it in.
 
 
 ## **Variables**
